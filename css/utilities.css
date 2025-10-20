@@ -1,0 +1,247 @@
+
+/* Utilities: means the classess will use all around the website */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px; /*0 for top bottom, 40 for left right*/
+}
+
+/*form card*/
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+/*Base button : for all buttons*/
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+/* Cloud: Backgrounds & colored buttons */
+.bg-primary, .btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light, .btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+/*footer: social icons and links pages*/
+.bg-primary a, 
+.btn-primary a,
+.bg-secondary a, 
+.btn-secondary a,
+.bg-dark a, 
+.btn-dark a {
+    color: #fff;
+}
+
+/* Docs page: essentials - Text colors */
+.text-primary {
+    color: var(--primary-color); /*primary blue color text for essentials - intro*/
+
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+
+}
+
+.text-dark {
+    color: var(--dark-color);
+
+}
+
+.text-light {
+    color: var(--light-color);
+
+}
+
+/* cloud paragraphs: Text Sizes */
+.lead {
+    font-size: 20px;
+}
+/*creating your own framework*/
+/*small size*/
+.sm {
+    font-size: 1rem;
+}
+/*medium size*/
+.md {
+    font-size: 2rem;
+}
+/*large size*/
+.lg {
+    font-size: 3rem;
+}
+/*extra large size*/
+.xl {
+    font-size: 4rem;
+}
+
+/*3 icons*/
+.text-center {
+    text-align: center;
+}
+
+/* Docs Page: Alert 
+will have like different colour alerts just like bootstrap does
+where we have success, and danger which is red*/
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+/*docs page: i green color*/
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*repeat twice and 1 fraction*/
+    gap: 20px; /*grid gap for space in between lines*/
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* 3 fontawesome icons: make it in  same line in 3 columns*/
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Margin for our h3 and icons
+my for margin and y for vertical*/
+.my-1 {
+    margin:  1rem 0;
+}
+
+.my-2 {
+    margin:  1.5rem 0;
+}
+
+.my-3 {
+    margin:  2rem 0;
+}
+
+.my-4 {
+    margin:  3rem 0;
+}
+
+.my-5 {
+    margin:  4rem 0;
+}
+
+/*margin -- for all around*/
+.m-1 {
+    margin:  1rem;
+}
+
+.m-2 {
+    margin:  1.5rem;
+}
+
+.m-3 {
+    margin:  2rem;
+}
+
+.m-4 {
+    margin:  3rem;
+}
+
+.m-5 {
+    margin:  4rem;
+}
+
+
+/* Margin for Padding*/
+.py-1 {
+    padding:  1rem 0;
+}
+
+.py-2 {
+    padding:  1.5rem 0;
+}
+
+.py-3 {
+    padding:  2rem 0;
+}
+
+.py-4 {
+    padding:  3rem 0;
+}
+
+.py-5 {
+    padding:  4rem 0;
+}
+
+.p-1 {
+    padding:  1rem;
+}
+
+.p-2 {
+    padding:  1.5rem;
+}
+
+.p-3 {
+    padding:  2rem;
+}
+
+.p-4 {
+    padding:  3rem;
+}
+
+.p-5 {
+    padding:  4rem;
+}
